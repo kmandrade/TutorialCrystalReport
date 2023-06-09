@@ -1,0 +1,26 @@
+﻿.tabela {
+    border-width: 1px;
+    width: 100%;
+    border-style: solid;
+    border-color: #993399;
+    border-collapse: separate !important;
+}
+
+.tabelaTitulo {
+    height: 28px !important;
+    border: 2px;
+    color: White;
+    font-size: 14px;
+    font-weight: 500;
+    border-color: #993399;
+    background-color: #993399;
+}
+
+.tabelaBotoes {
+    background-color: #cf70cf;
+}
+.centralizado {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

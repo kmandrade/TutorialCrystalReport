@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="TutorialCrystalReport.Home" %>
+<%@ Register assembly="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" namespace="CrystalDecisions.Web" tagprefix="CR" %>
 
 <!DOCTYPE html>
 
@@ -25,7 +26,7 @@
                 
                 <tr>
                     <td class="tabelaBotoes" align="center">
-                        <asp:Button ID="btnGerarRelatorio" runat="server" Text="Gerar Relatorio"></asp:Button>
+                        <asp:Button ID="btnGerarRelatorio" runat="server" Text="Gerar Relatorio" OnClick="btnGerarRelatorio_Click"></asp:Button>
                     </td>
 
                 </tr>
